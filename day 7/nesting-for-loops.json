@@ -1,0 +1,1 @@
+{"index.js":"function multiplyAll(arr) {\n  var product = 1;\n  // Only change code below this line\n  for (var z=0;z<arr.length;z++){\n    for (var x=0;x<arr[z].length;x++)\n      product *= arr[z][x];\n  }\n  // Only change code above this line\n  return product;\n}\n\n// Modify values below to test your code\nmultiplyAll([[1,2],[3,4],[5,6,7]]);\n"}
