@@ -1,0 +1,1 @@
+{"index.js":"const s = [5, 7, 2];\nfunction editInPlace() {\n  \"use strict\";\n  // change code below this lin\n  s.pop();\n  s.unshift(2);\n  console.log(s);\n\n  // change code above this line\n}\neditInPlace();"}
