@@ -26,7 +26,7 @@ this.width = width;
 this.height = height;
 }
 Grid.prototype.isInside = function(vector) {
-return vector.x >= 0 &amp;&amp; vector.x < this.width &amp;&amp;
+return vector.x >= 0 &amp; &amp; vector.x < this.width &amp;&amp;
 vector.y >= 0 &amp;&amp; vector.y < this.height;
 };
 Grid.prototype.get = function(vector) {
