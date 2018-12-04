@@ -1,0 +1,1 @@
+{"index.js":"function forecast(arr) {\n  // change code below this line\nlet todaysWeather = arr.slice(2, 4);\n  return todaysWeather;\n}\n\n// do not change code below this line\nconsole.log(forecast(['cold', 'rainy', 'warm', 'sunny', 'cool', 'thunderstorms']));"}
